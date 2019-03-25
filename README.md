@@ -1,46 +1,35 @@
-# Usando React para listar e filtrar receitas
+# React to list and filter recipes
 
-Neste desafio, você criará uma interface para listar e filtrar receitas.
+In this challenge, the idea was to list and filter recipes in the UI.
 
-## Tópicos
+## Topics
 
-Com esse desafio, você aprenderá:
+This challenge covers
 
 - React
 - ES6
 - Javascript
-- Testes unitários
+- Unit tests
 
-## Requisitos
+## Requirements
 
-Você precisará do Nodejs (LTS ou Current) instalado em sua máquina.
+- NodeJS
 
-## Detalhes
+### ToDos
 
-Dentro da pasta `src`, você encontrará a estrutura básica do projeto React. . Além disso, todos os arquivos necessários já estão criados assim como a estrutura em relação a `HTML` e `CSS`. Sua missão neste desafio será criar a lógica dos componentes para deixá-lo dinâmico.
+1. Render dynamically the `RecipeItems` component with the sample data.
+2. When typing text in the input inside the `Navbar` component, the `RecipeItems` needs to be filtered by `title` or `ingredients`.
+3. The filter needs to be `case insensitive`, meaning it doesn't matter if you type `Potato` or `potato`. It is the same text.
 
-Dentro da pasta `sample_data`, você terá uma listagem de receitas que deverá ser impressa na tela.
+## Running the application
 
-### Tarefas
-
-1. Renderizar dinamicamente o componente `RecipeItems` para todos os elementos dentro dos dados de amostra;
-2. Ao digitar um texto no `input` dentro do component `Navbar`, os `RecipeItems` deverão ser filtrados, tanto pelo `title` quanto pelo `ingredients`;
-3. O filtro deverá ser `case insensitive`;
-4. (Bônus) fazer o highlight do texto pesquisado dentro do `title` e `ingredients` utilizando a tag `<mark>`.
-
-### Exemplo
-
-![](https://s3-us-west-1.amazonaws.com/codenation-challenges/react-0/BouncyAfraidDikkops-size_restricted.gif)
-
-## Rodando a aplicação
-
-Na primeira execução rodar o comando:
+To install all dependencies
 
 ```
 npm install
 ```
 
-Para rodar a aplicação:
+To run the application:
 
 ```
 npm start
