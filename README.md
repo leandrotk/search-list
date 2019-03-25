@@ -15,7 +15,7 @@ This challenge covers
 
 - NodeJS
 
-### ToDos
+## ToDos
 
 1. Render dynamically the `RecipeItems` component with the sample data.
 2. When typing text in the input inside the `Navbar` component, the `RecipeItems` needs to be filtered by `title` or `ingredients`.
